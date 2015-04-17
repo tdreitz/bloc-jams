@@ -1,5 +1,3 @@
-console.log('landing.js is loaded');
-
 $(document).ready(function() {
     $('.hero-content h3').click(function() {
         var subText = $(this).text();

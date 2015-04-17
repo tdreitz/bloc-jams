@@ -1,4 +1,4 @@
-console.log('app.js is loaded');
+// console.log('app.js is loaded');
 
 require("./landing");
-require("./collections");
+require("./collections")
