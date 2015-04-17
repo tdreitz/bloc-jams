@@ -33,6 +33,6 @@ if (document.URL.match(/\/collection.html/)) {
   // Wait until HTML is full loaded to start 
   $(document).ready(function() {
     // Your code goes here
-    updateCollectionView()
+    updateCollectionView();
   });
 }

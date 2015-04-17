@@ -1,4 +1,5 @@
 // console.log('app.js is loaded');
 
 require("./landing");
-require("./collections")
+require("./collections");
+require("./album");
