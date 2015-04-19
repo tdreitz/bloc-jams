@@ -3,3 +3,5 @@
 require("./landing");
 require("./collections");
 require("./album");
+require("./albumEcOne");
+require("./EcTwo");
