@@ -136,23 +136,16 @@ var setupSeekBars = function() {
 
     $seekBar.addClass(".no-animate");
 
-    $(".player-bar").bind("mousemove.thumb", function(event){
+    $(document).bind("mousemove.thumb", function(event){
       updateSeekPercentage($seekBar, event);
     });
 
     //cleanup
-    $(".player-bar").bind("mouseup.thumb", function () {
+    $(document).bind("mouseup.thumb", function () {
       $seekBar.removeClass("no-animate");
       $(document).unbind("mousemove.thumb");
       $(document).unbind("mouseup.thumb");
     });
   });
 };
-
-if (document.URL.match(/\/album.html/)) {
-  $(document).ready(function () {
-    changeAlbumView(albumPicasso);
-    setupSeekBars();
-  });
-} 
 

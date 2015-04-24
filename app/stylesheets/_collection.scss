@@ -1,23 +1,18 @@
 .collection-album-container {
   margin-top: 30px;
-<<<<<<< HEAD
   margin-bottom: 20px;
 }
 
 .collection-album-container .caption {
   margin-top: 10px;
 }
-=======
-  margin-bottom: 20px; }
 
 .collection-album-container .caption {
   margin-top: 10px; }
->>>>>>> functional-player-controls
 
 .collection-album-container .caption p {
   font-size: 16px;
   font-weight: 300;
-<<<<<<< HEAD
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -40,24 +35,9 @@
 .collection-album-container .collection-album-image-container {
   position: relative;
 }
-=======
-  color: rgba(255, 255, 255, 0.6); }
-
-.collection-album-container .caption p a {
-  color: rgba(255, 255, 255, 0.6); }
-
-.collection-album-container .caption p a.album-name {
-  color: white; }
-
-.collection-album-container img {
-  max-width: 100%; }
 
 // .collection-album-image-container {
 //   max-width: 100%; }
-
-.collection-album-container .collection-album-image-container {
-  position: relative; }
->>>>>>> functional-player-controls
 
 .collection-album-container .collection-album-image-overlay {
   position: absolute;
@@ -65,25 +45,16 @@
   left: 0px;
   width: 100%;
   height: 100%;
-<<<<<<< HEAD
   background-color: rgba(0,0,0, 0.4);
   z-index: 10;
 }
-=======
-  background-color: rgba(0, 0, 0, 0.4);
-  z-index: 10; }
->>>>>>> functional-player-controls
 
 .collection-album-container .collection-overlay-content {
   position: absolute;
   bottom: 20px;
   width: 100%;
-<<<<<<< HEAD
   text-align: center;
 }
-=======
-  text-align: center; }
->>>>>>> functional-player-controls
 
 .collection-album-container .collection-overlay-button {
   font-size: 20px;
@@ -92,33 +63,17 @@
   border-radius: 50% 50%;
   display: inline-block;
   width: 42px;
-<<<<<<< HEAD
   height: 42px;
 }
-=======
-  height: 42px; }
->>>>>>> functional-player-controls
 
 .collection-album-container .collection-overlay-button:hover {
   cursor: pointer;
   color: white;
-<<<<<<< HEAD
   background-color: #d2287b;
 }
-
-.collection-album-container .collection-overlay-button i {
-  line-height: 42px;
-}
-
-.collection-album-container .collection-overlay-button .fa-play {
-  padding-left: 5px;
-}
-=======
-  background-color: #d2287b; }
 
 .collection-album-container .collection-overlay-button i {
   line-height: 42px; }
 
 .collection-album-container .collection-overlay-button .fa-play {
   padding-left: 5px; }
->>>>>>> functional-player-controls

@@ -3,3 +3,4 @@
 require("./landing");
 require("./collections");
 require("./album");
+require("./profile");
