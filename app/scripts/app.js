@@ -6,6 +6,21 @@
 // require("./profile");
 
 angular.module("BlocJams", []).controller("Landing.controller", ["$scope", function($scope) {
+  
+  $scope.heroHeader = "Bloc Jams";
+
+  $scope.heroHeaderClicked = function () {
+
+    var o = $scope.albumURLs;
+    
+    function shuffle(o) {
+      for (var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+        return o;
+    };
+    var newOoo = shuffle(o);
+    $scope.albumURLs = newOoo;
+  }
+
   $scope.subText = "Turn the music up!";
 
   $scope.subTextClicked = function() {
