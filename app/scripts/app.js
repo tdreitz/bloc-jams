@@ -1,4 +1,5 @@
 // console.log('app.js is loaded');
+require("./profile");
 
 var albumPicasso = {
  name: 'The Colors',
